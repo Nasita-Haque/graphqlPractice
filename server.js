@@ -10,7 +10,7 @@ const schema = buildSchema(`
 
 const root = {
   hello: () => {
-    return 'Hello Graphql!';
+    return 'Hello World!';
   },
 };
 
