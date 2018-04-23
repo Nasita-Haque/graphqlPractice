@@ -6,7 +6,18 @@
   "scripts": {
     "start": "webpack --mode development --watch"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasita-Haque/pictureFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasita-Haque/pictureFinder/issues"
+  },
+  "homepage": "https://github.com/Nasita-Haque/pictureFinder#readme",
+  "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
@@ -15,9 +26,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
-  },
-  "dependencies": {
+    "webpack-cli": "^2.0.15",
     "css-loader": "^0.28.11",
     "style-loader": "^0.21.0"
   }
