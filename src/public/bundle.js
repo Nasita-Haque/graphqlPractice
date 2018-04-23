@@ -83,7 +83,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "body {\n\tmargin: 10;\n\tfont-family: times;\n}\n\n/*Search Bar*/\n", ""]);
+exports.push([module.i, "body {\n\tmargin: 10px;\n\tfont-family: times;\n}\n\n/*Search Bar*/\n.searchbar{\n\tmargin-bottom: 10px;\n}\n\n.grid-container{\n\n}", ""]);
 
 // exports
 
@@ -19756,12 +19756,21 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SearchBar = function SearchBar() {
-
+	//TUMBLR API 
 	return _react2.default.createElement(
 		"div",
-		{ className: "search" },
-		_react2.default.createElement("input", { type: "text", className: "searchTerm", placeholder: "Search here" }),
-		_react2.default.createElement("button", { type: "submit", className: "searchButton" })
+		null,
+		_react2.default.createElement(
+			"div",
+			{ className: "searchbar" },
+			_react2.default.createElement("input", { type: "text", className: "searchTerm", placeholder: "Search here" }),
+			_react2.default.createElement("button", { type: "submit", className: "searchButton" })
+		),
+		_react2.default.createElement(
+			"div",
+			{ className: "grid-container" },
+			"Images"
+		)
 	);
 };
 

@@ -1,6 +1,13 @@
 body {
-	margin: 10;
+	margin: 10px;
 	font-family: times;
 }
 
 /*Search Bar*/
+.searchbar{
+	margin-bottom: 10px;
+}
+
+.grid-container{
+
+}
