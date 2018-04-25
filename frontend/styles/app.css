@@ -1,0 +1,93 @@
+/*--------OVERALL DIV--------*/
+body {
+	margin-top: 0;
+}
+
+/*-------MAIN CONTAINER-------*/
+
+.main-container {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	padding-top: 0;
+}
+
+.main-container h3 {
+	font-size: 10em;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 10px;
+	letter-spacing: 20px;
+}
+
+/*--------SEARCH BAR----------*/
+
+.search-bar {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+/*------SEARCH INPUT BOX------*/
+
+form {
+	margin-top: 50px;
+}
+
+.search-bar .searchTerm {
+	width: 600px;
+	height: 65px;
+	text-align: center;
+	font-size: 3em;
+	border: none;
+	border-bottom: 3px solid black;
+	line-height: 60%;
+	font-family: 'Amatic SC', cursive;
+}
+
+.searchTerm textarea {
+	font-color: #FFD7CE;
+	
+}
+
+.searchTerm:focus {
+	outline: none;
+}
+
+/*--------SUBMIT BUTTON--------*/
+
+.search-bar .button {
+	height: 60px;
+	margin-left: 10px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+
+/*------------IMAGE BLOCK------------*/
+
+p {
+	margin-left: 500px;
+	font-size: 2em;
+}
+
+img {
+	width: 100%;
+}
+
+img:hover .overlay {
+  opacity: 1;
+}
+
+/*-------IMAGE CONTAINER-------*/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+
+.grid-container div {
+	justify-content: center;
+	align-self: center;
+	margin: 15px;
+	padding:5px;
+  border: 3px solid #021a40;
+}

@@ -10,8 +10,8 @@ import "./styles/app.css";
 
 const App = () => {
 	return (
-		<div>
-			<h3>Welcome to Picture Finder. Search for Tumblr images here.</h3>
+		<div className="main-container">
+			<h3>Picture Galore</h3>
 			<SearchBar />
 		</div>
 	)
