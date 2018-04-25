@@ -1,7 +1,7 @@
 # Picture Galore
 
 ![](https://i.imgur.com/IwKa2Bw.png)
-**Picture Galore** is a small app that shows photos from Tumblr using the Tumblr Tag API. You click on images to check out the photo blogs as well.  
+**Picture Galore** is a small app that displays images from Tumblr using the Tumblr Tag API. You can also click on images to check out the Tumblr blogs as well.  
 
 
 # Getting Started
