@@ -5,13 +5,9 @@
 
 
 # Getting Started
-Open your terminal to install app packages.
-`npm i`
-On a separate terminal tab please run:
-`node ./backend/server.js`
-Now all you have to do is go to the localhost on your browser:
-`http://localhost:5000/`
-
+ 1. Open your terminal to install app packages. `npm i` 
+ 2. On a separate terminal tab please run: `node ./backend/server.js` 
+ 3. Now all you have to do is go to the localhost on your browser:  `http://localhost:5000/`
 
 ## Built With
 - React - Framework Used
